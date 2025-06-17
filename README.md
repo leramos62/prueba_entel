@@ -92,6 +92,3 @@ Este conjunto de DAGs incluye:
 *   El DAG de backup (`dag_buckup.py`) está configurado para exportar las tablas `departments`, `hired_employees` y `jobs`. Puede modificar la lista `TABLES_TO_BACKUP` para incluir otras tablas.
 *   El DAG de ingesta (`ingesta_gcp_csv_v6.py`) usa `WRITE_TRUNCATE`, lo que significa que las tablas de BigQuery se truncarán (y los datos existentes se perderán) antes de la carga.
 
-## Licencia
-
-[Incluya la información de la licencia aquí]
